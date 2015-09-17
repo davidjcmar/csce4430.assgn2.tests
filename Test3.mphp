@@ -1,0 +1,17 @@
+<?php
+// Test3.php
+// Non-recursive function
+
+function area ( $x, $y, $h ) {
+    $z = 2 * ( $x * $y + ($x + $h) + $y * $h);
+    return $z;
+}
+
+$a = 0;
+$b = 0;
+$s = 0;
+$a = 3; $b = 4;
+$h = 5;
+$s = area ($a, $b, $h);
+print $s;
+?>

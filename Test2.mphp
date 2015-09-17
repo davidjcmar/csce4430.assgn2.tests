@@ -1,0 +1,15 @@
+<?php
+// Test2.php
+// List manipulation
+
+$my_list = array();
+$r = 0;
+$h = 0;
+while ($r < 5) {
+    array_push ( $my_list, $r );
+    $r = $r + 1;	
+}
+$h = $my_list [0];
+print $h;
+print array_pop ($my_list);
+?>

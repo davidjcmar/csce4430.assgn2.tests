@@ -1,0 +1,17 @@
+<?php
+// Test1.php
+// Compute quotient and remainder by repeated subtraction
+
+$q = 0;
+$r = 0;
+$x = 0;
+$y = 0;
+$x = 32; $y = 5;
+$r = $x;
+while ($r >= $y) {
+    $q = $q + 1;
+    $r = $r - $y;
+}
+print $q;
+print $r;
+?>
